@@ -32,7 +32,8 @@ and process data from multiple high-resolution sensors.
 
 Really nice for detecting usage of face mask, image processing -> taking images as input. Average RGB image provides a
 round 1000 x 1000 pixels resulting to 3 million input features (just for the first layer of CNN), considering all the layers 
-it will require a lot of operations. Using this device, capable of doing up to 21 TOPs, able to run multiple NNs in parallel, CNN would be faster and more efficient.
+it will require a lot of operations. Using this device, capable of doing up to 21 TOPs, able to run multiple NNs in parallel, 
+CNN would be faster and more efficient.
 
 Cloud Native Development (container-based environment, each part of the app is packaged in its own container), 
 individual applications and services can be packaged as Docker containers and individually distributed and updated via the cloud.
