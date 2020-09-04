@@ -12,8 +12,8 @@ Storage: MicroSD, can add external NVMe SSD
 
 
 Really nice for detecting usage of face mask, image processing -> taking images as input. Average RGB image provides a
-round 1000 x 1000 pixels resulting to 3 million input features (just for the first layer of CNN), considering all 
-the layers it will require a lot of operations. Using this device, capable of doing up to 21 TOPs, CNN would be faster and more efficient.
+round 1000 x 1000 pixels resulting to 3 million input features (just for the first layer of CNN), considering all the layers 
+it will require a lot of operations. Using this device, capable of doing up to 21 TOPs, CNN would be faster and more efficient.
 
 Jetson Xavier enables us to run several NN in parallel (faster processing can run different models at the same time), 
 and process data from multiple high-resolution sensors.
@@ -25,10 +25,14 @@ individual applications and services can be packaged as Docker containers and in
 JetPack 4.4 SDK 
 
 cuDNN
-provides high-performance primitives for deep learning frameworks. It provides highly tuned implementations for standard routines such as forward and backward convolution, pooling, normalization, and activation layers.
+provides high-performance primitives for deep learning frameworks. 
+It provides highly tuned implementations for standard routines such as forward and backward convolution, pooling, 
+normalization, and activation layers.
 
 TensorRT
-high performance deep learning inference runtime for image classification, segmentation, and object detection neural networks. It includes a deep learning inference optimizer and runtime that delivers low latency and high-throughput for deep learning inference applications.	
+high performance deep learning inference runtime for image classification, segmentation, 
+and object detection neural networks. It includes a deep learning inference optimizer and runtime that delivers low latency 
+and high-throughput for deep learning inference applications.	
 
 DeepStream
 delivers a complete streaming analytics toolkit for AI-based multi-sensor processing, video and image understanding.
