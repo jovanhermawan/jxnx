@@ -1,0 +1,2 @@
+# jxnx
+Jetson Xavier NX
