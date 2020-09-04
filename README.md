@@ -1,5 +1,4 @@
-# jxnx
-Jetson Xavier NX
+# Jetson Xavier NX
 <pre>
 Key Features:
 384 CUDA cores (parallel processors, single value multiplication per GPU clock), 48 Tensor cores(specialised for matrix operations, less precision, matrix multiplication per GPU clock), 2 Deep Learning Accelerators.
