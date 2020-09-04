@@ -1,5 +1,6 @@
 # jxnx
 Jetson Xavier NX
+<pre>
 Jetson Xavier NX Developer Kit
 Key Features:
 384 CUDA cores (parallel processors, single value multiplication per GPU clock), 48 Tensor cores(specialised for matrix operations, less precision, matrix multiplication per GPU clock), 2 Deep Learning Accelerators.
@@ -22,3 +23,4 @@ DeepStream
 delivers a complete streaming analytics toolkit for AI-based multi-sensor processing, video and image understanding.
 Isaac SDK
 accelerate robot development by making it easier to add artificial intelligence (AI) for perception and navigation into robots.
+<pre>
