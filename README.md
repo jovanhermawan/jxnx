@@ -9,18 +9,6 @@ Power: 10 – 15 Watts
 
 Storage: MicroSD, can add external NVMe SSD
 
-
-Really nice for detecting usage of face mask, image processing -> taking images as input. Average RGB image provides a
-round 1000 x 1000 pixels resulting to 3 million input features (just for the first layer of CNN), considering all the layers 
-it will require a lot of operations. Using this device, capable of doing up to 21 TOPs, CNN would be faster and more efficient.
-
-Jetson Xavier enables us to run several NN in parallel (faster processing can run different models at the same time), 
-and process data from multiple high-resolution sensors.
-
-Cloud Native Development (container-based environment, each part of the app is packaged in its own container), 
-individual applications and services can be packaged as Docker containers and individually distributed and updated via the cloud.
-
-
 JetPack 4.4 SDK 
 
 cuDNN
@@ -38,4 +26,14 @@ delivers a complete streaming analytics toolkit for AI-based multi-sensor proces
 
 Isaac SDK
 accelerate robot development by making it easier to add artificial intelligence (AI) for perception and navigation into robots.
+
+Jetson Xavier enables us to run several NN in parallel (faster processing can run different models at the same time), 
+and process data from multiple high-resolution sensors.
+
+Really nice for detecting usage of face mask, image processing -> taking images as input. Average RGB image provides a
+round 1000 x 1000 pixels resulting to 3 million input features (just for the first layer of CNN), considering all the layers 
+it will require a lot of operations. Using this device, capable of doing up to 21 TOPs, CNN would be faster and more efficient.
+
+Cloud Native Development (container-based environment, each part of the app is packaged in its own container), 
+individual applications and services can be packaged as Docker containers and individually distributed and updated via the cloud.
 <pre>
